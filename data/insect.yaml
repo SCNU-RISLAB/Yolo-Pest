@@ -1,0 +1,77 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/insect # dataset root dir
+train: images/train  # train images (relative to 'path') 118287 images
+val: images/val  # val images (relative to 'path') 5000 images
+test: images/test # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: none
+  1: Sesamia inferens
+  2: Chilo suppressalis
+  3: Rice leaf roller
+  4: Sogatella furcifera
+  5: Nilaparvata
+  6: cutworm
+  7: Gryllotalpa spps
+  8: Mythimna separata
+  9: Loxostege sticticalis
+  10: Beet armyworm
+  11: Sirthenea flavipes
+  12: Creatonotus transiens
+  13: Helicoverpa armigera
+  14: Athetis lepigone
+  15: Mamestra brassicae Linnaeus
+  16: Gryllidae
+  17: Porthesia taiwana Shiraki
+  18: Naranga aenescens Moore
+  19: Calothysanis comptaria Walker
+  20: Paracymoriza
+  21: Athetis lineosa
+  22: Spoladea recurvalis
+  23: Endotricha mesenterialis
+  24: Diaphania indica
+  25: Maruca testulalis Geyer
+  26: Caddisfly
+  27: Holotrichia oblita Faldermann
+  28: Staurophora celsia Linnaeus
+
+#names:
+#  0: 无
+#  1: 大螟
+#  2: 二化螟
+#  3: 稻纵卷叶螟
+#  4: 白背飞虱
+#  5: 褐飞虱属
+#  6: 地老虎
+#  7: 蝼蛄
+#  8: 粘虫
+#  9: 草地螟
+#  10: 甜菜夜蛾
+#  11: 黄足猎蝽
+#  12: 八点灰灯蛾
+#  13: 棉铃虫
+#  14: 二点委夜蛾
+#  15: 甘蓝夜蛾
+#  16: 蟋蟀
+#  17: 黄毒蛾
+#  18: 稻螟蛉
+#  19: 紫条尺蛾
+#  20: 水螟蛾
+#  21: 线委夜蛾
+#  22: 甜菜白带野螟
+#  23: 歧角螟
+#  24: 瓜绢野螟
+#  25: 豆野螟
+#  26: 石蛾
+#  27: 大黑鳃金龟
+#  28: 干纹冬夜蛾
