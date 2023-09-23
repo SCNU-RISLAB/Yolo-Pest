@@ -1,11 +1,3 @@
-# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
-# COCO 2017 dataset http://cocodataset.org by Microsoft
-# Example usage: python train.py --data coco.yaml
-# parent
-# ├── yolov5
-# └── datasets
-#     └── coco  ← downloads here (20.1 GB)
-
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ../datasets/insect # dataset root dir
