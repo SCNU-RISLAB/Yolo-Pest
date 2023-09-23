@@ -1,4 +1,4 @@
-# Yolo-Pest: Insect Pest Object Detection Algorithm via CAC3 Module
+# Yolo-Pest: An Insect Pest Object Detection Algorithm via CAC3 Module
 
 **🎉Yolo-Pest finished the game with a leading mAP.5 of **_91.9%_** on [10th Teddy Cup Question A](https://www.tipdm.org:10010/#/competition/1481159137780998144/question), wining the national first prize.🎉**
 
