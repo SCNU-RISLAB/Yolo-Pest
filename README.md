@@ -87,7 +87,7 @@ pip install tensorboard
 tensorboard --logdir my_log
 ```
 
-![visual](visual.png)
+![visual](visual.jpg)
 ## 👏Acknowledgment
 This repo is based on [Yolov5](https://github.com/ultralytics/yolov5), and we are very grateful for their excellent work.
 
