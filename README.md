@@ -4,7 +4,7 @@
 
 ## 📖How to use
 ### 📚Dataset
-Download dataset from [the official website of the Teddy Cup](http://www.semantic-kitti.org/dataset.html#download) (including **training image of 28 species of pests** and **label data**).
+Download dataset from the official website of the [Teddy Cup](https://www.tipdm.org:10010/#/competition/1481159137780998144/question) (including **training image of 28 species of pests** and **label data**).
 
 Download IP102 from [IP102](https://github.com/%20xpwu%2095/IP102) (including **more than 75,000 training image of 102 kinds of pests** and **label data**).
 
